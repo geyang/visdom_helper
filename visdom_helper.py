@@ -1,12 +1,4 @@
-import sys
 from visdom import Visdom
-
-
-def log(*args, **kwargs):
-    """use stdout.flush to allow streaming to file when used by IPython. IPython doesn't have -u option."""
-    print(*args, **kwargs)
-    sys.stdout.flush()
-
 
 class Dashboard(Visdom):
     def __init__(self, name):
