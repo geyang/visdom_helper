@@ -1,4 +1,6 @@
-# Visdom-Helper
+# Visdom-Helper [![](https://img.shields.io/badge/link_on-GitHub-brightgreen.svg?style=flat-square)](https://github.com/episodeyang/visdom_helper)
+
+
 
 This is a simple helper class that makes the awesome `visdom` library easier to use.
 
