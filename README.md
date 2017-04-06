@@ -20,11 +20,12 @@ vis = Dashboard('title-of-this-dashboard')
 
 ```
 
-Existing plots are automatically updated.
+Existing plots are automatically updated, indexed by name/title.
 ```python
 vis.plot('title-of-plot/name-of-plot', 'type-of-plog', *arg, **args)
 ```
 
+To update plot by appending new data
 ```python
-vis.plot('title-of-plot/name-of-plot', 'type-of-plog', *arg, **args)
+vis.append('title-of-plot/name-of-plot', 'type-of-plog', *arg, **args)
 ```
