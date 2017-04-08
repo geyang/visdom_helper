@@ -31,3 +31,10 @@ To update plot by appending new data
 ```python
 vis.append('title-of-plot/name-of-plot', 'type-of-plog', *arg, **args)
 ```
+
+loss tool is designed to record and visualize the loss for a training procedure.
+```python
+loss_tool.append_loss(err)
+```
+
+err here is an torch tensor with shape (1).
